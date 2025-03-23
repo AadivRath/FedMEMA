@@ -255,7 +255,7 @@ class Brats_val(Dataset):
 
 
 if __name__ == "__main__":
-    data_path = '/data1/qd/BRATS2020_Training_none_npy'
+    data_path = '/kaggle/input/brats2020-training-data/BraTS2020_training_data/content/data'
     # set = Brats_loadall_nii(transforms=train_transforms, root=data_path,
     #                 modal='flair', num_cls=4, train_file='fl_train.txt')
 
